@@ -6,7 +6,7 @@ En caso de que seas un empleadito y requieras marcar tu entrada y salida por med
 ## Installation
 
 ```bash
-node install -g
+npm install -g
 ```
 
 ## How to use
