@@ -1,1 +1,1 @@
-# Projecto empleadito para marcación en el redmine
+# Proyecto empleadito para marcación en el redmine
