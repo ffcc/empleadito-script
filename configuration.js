@@ -115,8 +115,6 @@ module.exports = {
             if (redmineConfig) {
                 promptIssueConfig({userId: redmineConfig.userId}).then(issueConfig => {
                     logger.info("Guardando configuración...");
-                    console.log(redmineConfig);
-                    console.log(issueConfig);
                     storage.save(CONFIG_KEY, {
                         redmine: redmineConfig,
                         issue: issueConfig
