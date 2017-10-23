@@ -1,0 +1,38 @@
+{
+  "name": "py.com.ffcc.empleadito",
+  "version": "1.0.0",
+  "description": "Proyecto de marcación",
+  "main": "./index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "empleadito": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffcc/empleadito-script.git"
+  },
+  "keywords": [
+    "empleadito",
+    "marcacion",
+    "redmine"
+  ],
+  "author": "Fernando Caballero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ffcc/empleadito-script/issues"
+  },
+  "homepage": "https://github.com/ffcc/empleadito-script#readme",
+  "dependencies": {
+    "chalk": "^2.2.0",
+    "cli-table": "^0.3.1",
+    "commander": "^2.11.0",
+    "moment": "^2.19.1",
+    "node-persist": "^2.1.0",
+    "prompt": "^1.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "underscore": "^1.8.3"
+  }
+}
