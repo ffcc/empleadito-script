@@ -40,7 +40,7 @@ let empleaditoMarcar = function (accion) {
         }
         let config = configuration.getConfig();
         logger.info('Resolviendo marcación con ID ' + currentIssue.id + '...');
-        redmine.updateIssue(currentIssue.id, { status_id: 2 }).then(() => {
+        redmine.updateIssue(currentIssue.id, { status_id: config.issue.status_id.resolve }).then(() => {
             let currenDateFormat = moment(new Date()).format('DD/MM/YYYY HH:mm:ss');
             logger.info('Marcación resuelta con éxito!');
             logger.info('Recuperando datos de marcación actualizada...')
